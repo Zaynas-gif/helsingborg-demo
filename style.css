@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E3DEDE;
+}
+
+/* Header icon on the left #E3DE side and on the right sida */
+#headericon{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.hbgicon{
+    width: 300px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+
+}
+
+#knappar{
+    float:right;
+    padding-right: 20px;
+    padding-top: 60px;
+}
+
+
+
+/* Menubar */
+
+
+.menucontainer{
+    width: 100%;
+    height: 70px;
+    background-color:#BC2121;
+    position:flex;
+    text-align: center;
+    
+}
+
+.menuli{
+    display:inline-block;
+    list-style: none;
+    padding: 25px 10px 0 20px;
+    
+}
+
+.menucontainer ul .menuli a {
+    text-decoration:none;
+    color: #fff;
+    
+
+}
+
+/* MainImage witch searchbar */
+
+.imgcontainer {
+
+
+    width: 100%;
+    
+}
+.imgcontainer img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% ;
+    height: 300px;
+}
+
+.searchbar{
+    position:relative;
+    bottom: 150px;
+    left: 400px;
+    height: 45px;
+    width: 200px;
+    text-align:center;
+    border-radius: 25px;
+    border-style:none;
+    outline: none;
+    
+
+
+}
+
+.searchbardiv{
+    border-radius: 25px;
+    height: 0px;
+}
+
+.sokbt{
+    width: 60px;
+    height: 30px;
+    background-color:#BC2121;
+    border-radius: 25px;
+    position: relative;
+    bottom:155px;
+    left:470px;
+}
+
+.sokbt p{
+    text-align:center;
+    color:#fff;
+    padding-top: 5px;
+}
+
+/* Section box containers */
+.menucontainer{
+    width: 100%;
+}
+
+.boximage1{
+    position: relative;
+    background-color:#fff;
+    width: 300px;
+    left:450px;
+    top:30px;
+    height: 230px;
+    
+}
+.boximage1 img{
+width:300px;
+height: 150px;
+
+}
+
+.boximage1 a{
+    font-size:medium ;
+    text-decoration:none;
+    color: #F76DDF; 
+    
+}
+
+
+.boximage2{
+    position:relative;
+    background-color:#fff;
+    width: 300px;
+    bottom: 200px;
+    left: 100px;
+    height: 230px;
+}
+.boximage2 a{
+    font-size:medium;
+    text-decoration:none;
+    color: #F76DDF;
+    
+}
+.boximage2 img{
+    width:300px;
+    height: 150px;
+}
+
+.container {
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    width: 300px;
+    position:relative;
+    left: 350px;
+    bottom: 500px;
+
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    
+  }
+  
+  button.accordion:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: '\f056';
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+
+
+  /* 2 divs */
+
+.first{
+    background-color:white;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+}
+
+.divnr1 {
+    background-color:red;
+    text-align:center;
+    font-size: 30px; 
+    color:white;       
+}
+
+.first .divnr1ul .divnr1li {
+    list-style:none; 
+    font-size: 20px;  
+    padding:4px 0 4px 20px;  
+    border: solid black;   
+}
+
+.secound{
+    position:relative;
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    bottom: 750px;
+
+}
+
+.secound .divnr1ul .divnr1li {
+    list-style:none; 
+    font-size: 20px;  
+    padding:4px 0 4px 20px;  
+    border: solid black;   
+}
+
+.secound .divnr1ul .divnr1li {
+    list-style:none; 
+    font-size: 20px;  
+    padding:4px 0 4px 20px;  
+    border: solid black;   
+}
+
+/* Slider style*/
+
+.aboveslidertext{
+    position:relative;
+    bottom: 700px;
+    text-align:center;
+}
+
+#slider {
+    position: relative;
+    bottom: 700px;
+    margin: 0 auto;
+    width: 1100px;
+    max-width: 100%;
+    text-align: center;
+    
+ }
+
+ .slide-content{
+     position:relative;
+     top:120px;
+ }
+
+ .slide-content h2{
+     position: relative;
+     bottom:230px;
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+ #slides .slide_1 {
+    background-image:url(https://helsingborg.se/wp-content/uploads/2020/03/6-bli-svettig-helt-gratis-lowres-1250x375.png);
+ }
+ #slides .slide_2 {
+    background-image:url(https://helsingborg.se/wp-content/uploads/2020/03/2-upplev-kusten-pa-tva-hjul-lowres-1250x375.png);
+ }
+ #slides .slide_3 {
+    background-image:url(https://helsingborg.se/wp-content/uploads/2020/03/3-ta-en-historisk-promenad-lowres-1250x375.png);
+ }
+ #slides .slide_4 {
+    background-image:url(https://helsingborg.se/wp-content/uploads/2020/03/4-lyft-skrot-i-det-fria-lowres-1250x375.png);
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(3),
+ #slide3:checked ~ #controls label:nth-child(4),
+ #slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(3),
+ #slide3:checked ~ #controls label:nth-last-child(4),
+ #slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2),
+ #slide3:checked ~ #bullets label:nth-child(3),
+ #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
+
+/* Nyheter style*/
+
+.nyheterdiv{
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+.nyheterdiv2{
+    position: relative;
+    bottom: 1000px;
+    left: 600px;
+    width: 400px;
+    height: 400px;
+}
+
+.nyheterdiv2{
+    background-color: red;
+    text-align:center;
+}
+.nyheterdiv {
+    background-color:red;
+    text-align: center;
+}
+
+ .nyheterdiv2 h4{
+     color: white;
+     font-size: 30px;
+ }
+.nyheterdiv h4{
+    color:white;
+    font-size:30px;
+}
+
+
+.nyhetercontainer .nyheterdiv ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.nyhetercontainer .nyheterdiv2 ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.nyhetercontainer .nyheterdiv ul li{
+    padding: 6px 0 6px;
+    border:solid whitesmoke;
+    border-width: thin;
+    background-color:white
+}
+
+.nyhetercontainer .nyheterdiv2 ul li{
+    padding: 6px 0 6px;
+    border:solid whitesmoke;
+    border-width: thin;
+    background-color:white
+}
+
+ 
+/* contact style*/
+
+.contactcontainer{
+    width: 10;
+    height: 500px;
+    background-color: violet;
+    position:relative;
+    bottom:800px;
+}
+
+.contenttext{
+    background-color:violet;
+    color:white;
+    padding:100px 0 0 100px;
+}
+
+.contenttext2{
+    width:300px;
+    position:relative;
+    left:650px; 
+    bottom: 100px;
+    border:solid;
+    padding-left: 35px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+}
+
+
+.chatbar {
+    position: relative;
+    bottom: 950px;
+    left: 50px;
+    background-color:white;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    
+}
+
+.chattext{
+    font-size:10px;
+    position: relative;
+    text-align: center;
+    top:80px
+}
+
+.chattext2{
+    text-align: center;
+    position:relative;
+    top: 50px;
+}
+
+.mejlbar {
+    position: relative;
+    bottom: 1100px;
+    left: 210px;
+    background-color:white;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    
+}
+
+.mejltext{
+    font-size:10px;
+    position: relative;
+    text-align: center;
+    top:80px
+}
+
+.mejltext2{
+    text-align: center;
+    position:relative;
+    top: 50px;
+}
+
+.telbar {
+    position: relative;
+    bottom: 1250px;
+    left: 370px;
+    background-color:white;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    
+}
+
+.teltext{
+    font-size:10px;
+    position: relative;
+    text-align: center;
+    top:80px
+}
+
+.teltext2{
+    text-align: center;
+    position:relative;
+    top: 50px;
+}
+
+/* Footer style*/
+
+.footerdiv{
+    width:100%;
+    background-color: white;
+    position: relative;
+    bottom: 1200px;
+    height: 500px;
+}
+
+.footerdiv img{
+    padding: 50px 0 0 100px;
+}
+
+.footeradress{
+    padding: 50px 0 0 100px;
+}
+
+.footerom {
+    bottom:
+    text-align: center;
+    position:relative;
+    
+}
