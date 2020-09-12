@@ -10,7 +10,7 @@ body{
 }
 
 /* Header icon on the left #E3DE side and on the right sida */
-#headericon{
+#headericondiv{
     width: 100%;
     height: 100px;
     background-color: #fff;
@@ -21,6 +21,7 @@ body{
     height: 80px;
     padding-top: 20px;
     padding-left: 20px;
+    margin-bottom: 20px;
     
 
 }
@@ -445,6 +446,13 @@ height: 150px;
     font-size:30px;
 }
 
+.nyhetercontainer{
+    height: 300px;
+}
+
+.nyhetercontainer2{
+    height: 0px;
+}
 
 .nyhetercontainer .nyheterdiv ul{
     text-decoration: none;
@@ -474,104 +482,113 @@ height: 150px;
  
 /* contact style*/
 
-.contactcontainer{
-    width: 10;
-    height: 500px;
-    background-color: violet;
-    position:relative;
-    bottom:800px;
-}
-
-.contenttext{
-    background-color:violet;
-    color:white;
-    padding:100px 0 0 100px;
-}
-
-.contenttext2{
-    width:300px;
-    position:relative;
-    left:650px; 
-    bottom: 100px;
-    border:solid;
-    padding-left: 35px;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-bottom-style: hidden;
-}
-
-
-.chatbar {
+.contact-container {
+    background: linear-gradient(100deg, #cb0050 0, #fa1a74 100%);
+    color: #fff;
     position: relative;
-    bottom: 950px;
-    left: 50px;
-    background-color:white;
-    width: 150px;
-    height: 150px;
-    border-radius: 25px;
-    
+    bottom: 350px;
 }
 
-.chattext{
-    font-size:10px;
-    position: relative;
-    text-align: center;
-    top:80px
+.contact-text-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
 }
 
-.chattext2{
-    text-align: center;
-    position:relative;
-    top: 50px;
+.contact-info {
+    flex: 2;
 }
 
-.mejlbar {
-    position: relative;
-    bottom: 1100px;
-    left: 210px;
-    background-color:white;
-    width: 150px;
-    height: 150px;
-    border-radius: 25px;
-    
+.contact-header, .contact-text {
+    width: 70%;
 }
 
-.mejltext{
-    font-size:10px;
-    position: relative;
-    text-align: center;
-    top:80px
+.contact-text, .open-hours-times {
+    font-size: 1em;
+    padding-top: 20px;
 }
 
-.mejltext2{
-    text-align: center;
-    position:relative;
-    top: 50px;
+.open-hours {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 3px solid rgba(255, 255, 255, .8);
 }
 
-.telbar {
-    position: relative;
-    bottom: 1250px;
-    left: 370px;
-    background-color:white;
-    width: 150px;
-    height: 150px;
-    border-radius: 25px;
-    
+.open-hours-times-list {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-weight: lighter;
 }
 
-.teltext{
-    font-size:10px;
-    position: relative;
-    text-align: center;
-    top:80px
+.open-hours-small {
+    padding-top: 10px;
+    font-size: 0.9em;
 }
 
-.teltext2{
-    text-align: center;
-    position:relative;
-    top: 50px;
+.contact {
+    width: 80%;
+    background: #fff;
+    margin-top: 64px;
+    background: linear-gradient(180deg, #fff 0, #f8f8f8 100%);
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
 }
+
+.contact-banner-item {
+    flex: 1;
+    border-left: 1px solid #dbdbdb;
+    color: #000;
+    padding: 10px;
+}
+
+.contact-banner-item-header {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-banner-item img {
+   flex: 1;
+}
+
+.contact-banner-item-title {
+  flex: 5;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.contact-banner-item p {
+    margin-top: 20px;
+}
+.contact-banner-link {
+    margin: 20px 0px;
+    text-decoration: none;
+    color: #ae0b05;
+    text-align: right;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: font-size 0.5s;
+}
+
+.contact-banner-extra {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.contact-banner-extra a {
+    text-decoration: none;
+    color: #fff;
+    transition: font-size 0.5s;
+    font-weight: bold;
+    }
 
 /* Footer style*/
 
@@ -579,8 +596,8 @@ height: 150px;
     width:100%;
     background-color: white;
     position: relative;
-    bottom: 1200px;
-    height: 500px;
+    height: 300px;
+ 
 }
 
 .footerdiv img{
@@ -592,7 +609,7 @@ height: 150px;
 }
 
 .footerom {
-    bottom:
+
     text-align: center;
     position:relative;
     
