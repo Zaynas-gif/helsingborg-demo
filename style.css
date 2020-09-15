@@ -10,30 +10,53 @@ body{
 }
 
 /* Header icon on the left #E3DE side and on the right sida */
-#headericondiv{
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
+.headercontainer{
+    width: 80%;
+    height: 130px;
+    background-color:white;
+    margin: auto;
+    display:flex;
+    justify-content:space-between;
+
 }
 
-.hbgicon{
-    width: 300px;
-    height: 80px;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+#headerid{
+    background-color: white;
+}
+.header-img-leftside{
+    width:300px;
+    height:120px;
+    background-color:white;
+    padding: 20px 0;
+
     
+    
+}
+
+.header-nav-rightside{
+    width:300px;
+    height:100px;
+    background-color:white;
+    margin-top: auto;
+    padding-top: 15px;
+ 
+}
+
+.header-nav-rightside ul{
+    display:flex;
+    list-style-type: none;
+}
+.header-nav-rightside ul li a{
+    padding: 0 5px 0 5px;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    color:black;
 
 }
 
-#knappar{
-    float:right;
-    padding-right: 20px;
-    padding-top: 60px;
+.header-nav-rightside ul li a:hover{
+    text-decoration: underline;
 }
-
-
-
 /* Menubar */
 
 
@@ -111,7 +134,7 @@ body{
     padding-top: 5px;
 }
 
-/* Section box containers */
+/* Section box containers */x
 .menucontainer{
     width: 100%;
 }
