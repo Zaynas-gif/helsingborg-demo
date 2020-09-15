@@ -84,55 +84,100 @@ body{
 }
 
 /* MainImage witch searchbar */
+.search-container{
+    height: 350px;
+    position: relative;
+}
 
-.imgcontainer {
+.searchdiv{
+    background-image: url(https://helsingborg.se/wp-content/uploads/2017/05/strandpromenad-1-anna-alexander-olsson-1800x350-1-1800x350.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 99;
+}
 
+.stripes div {
+    width: 20px;
+    height: 20%;
+}
+    
 
+    
+.stripes div:nth-child(1) {
+    background-color: #f7a600;
+}
+
+.stripes div:nth-child(2) {
+    background-color: #cb0050;
+}
+
+.stripes div:nth-child(3) {
+    background-color: #ec6701;
+}
+
+.stripes div:nth-child(4) {
+    background-color: #ae0b05;
+}
+
+.stripes div:nth-child(5) {
+    background-color: #e3000f;
+}
+
+.search-bar{
+    position:absolute;
+    top:40%;
+    left:17%;
+    width: 40%;
+}
+
+.search-label {
+    background-color:#ae0b05;
+    color:white;
+    padding: 15px 10px 10px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    position:relative;
+    bottom:10px;
+
+}
+
+.search-div-container{
+    position: relative;
+    height: 40px;
+    font-size: 1em;
     width: 100%;
     
 }
-.imgcontainer img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100% ;
-    height: 300px;
-}
 
-.searchbar{
-    position:relative;
-    bottom: 150px;
-    left: 400px;
-    height: 45px;
-    width: 200px;
-    text-align:center;
+.search-input {
+    height: 56px;
+    width: 65%;
+    font-size: 1em;
+    border:none;
+    padding-left: 15px;
     border-radius: 25px;
-    border-style:none;
-    outline: none;
-    
-
-
 }
 
-.searchbardiv{
-    border-radius: 25px;
-    height: 0px;
-}
-
-.sokbt{
-    width: 60px;
-    height: 30px;
-    background-color:#BC2121;
-    border-radius: 25px;
-    position: relative;
-    bottom:155px;
-    left:470px;
-}
-
-.sokbt p{
-    text-align:center;
+.search-button {
+    height: 56px;
+    width: 10%;
+    font-size: 1em;
+    background-color:#ec6701 ;
     color:#fff;
-    padding-top: 5px;
+    border:none;
 }
+
+
 
 /* Section box containers */x
 .menucontainer{
