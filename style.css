@@ -683,8 +683,11 @@ color: whitesmoke;
 .footerdiv{
     width:100%;
     background-color: white;
-    position: relative;
-    height: 300px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column-reverse;
+    height: 500px;
+    position: absolute;
  
 }
 
@@ -701,4 +704,42 @@ color: whitesmoke;
     text-align: center;
     position:relative;
     
+}
+
+.footernav{
+    display:flex;
+    margin:auto;
+    width: 50%;
+    height: 70px ;
+
+}
+.footernav li {
+    list-style: none;
+    margin-bottom: 5px;
+    background-color: rgb(221, 214, 214);
+    width: 600px;    
+}
+.footernav li a{
+    font-size: 18px;
+    text-decoration:none;
+    color:black;
+    width: 50%;
+}
+
+.footernav li:hover{
+    background-color: rgb(131, 129, 129);
+}
+
+
+.grid-container .icon-list .icon-list-item{
+   display:inline-block;
+   
+   
+}
+.grid-container .icon-list{
+    color: rgb(59, 54, 54);
+}
+
+.grid-container{
+    margin:auto;
 }
